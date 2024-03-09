@@ -1,6 +1,6 @@
 # CIFAR-10 Image Classification
 
-This project aims to perform image classification using the CIFAR-10 dataset. CIFAR-10 is a widely used dataset for machine learning and computer vision tasks, consisting of 60,000 32x32 color images in 10 classes, with 6,000 images per class.
+This project aims to perform image classification using the CIFAR-10 dataset. [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) is a widely used dataset for machine learning and computer vision tasks, consisting of 60,000 32x32 color images in 10 classes, with 6,000 images per class.
 
 ## Table of Contents
 - [Introduction](#introduction)
