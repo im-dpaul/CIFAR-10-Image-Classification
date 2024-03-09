@@ -10,6 +10,7 @@ This project aims to perform image classification using the CIFAR-10 dataset. [C
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Prediction](#prediction)
+- [Running the Project](#running-the-project)
 
 ## Introduction
 Image classification is a fundamental task in computer vision, where the goal is to assign a label to an image based on its visual content. In this project, we utilize the CIFAR-10 dataset and deep learning techniques to train a model capable of accurately classifying images into one of ten predefined categories.
@@ -43,6 +44,14 @@ The convolutional neural network (CNN) architecture utilized for image classific
 
 ## Training
 The model is compiled using categorical crossentropy loss and the RMSprop optimizer. Early stopping with a patience of 3 epochs is employed to prevent overfitting. The training is performed for 15 epochs with the validation data specified.
+
+## Evaluation
+  - Visualizes training and validation loss/accuracy curves using pandas and seaborn.
+  - Evaluates the final model's performance on the test set using `model.evaluate`.
+  - Generates a classification report and confusion matrix for detailed analysis.
+
+## Prediction
+Finally, the trained model is utilized to predict the class of a given image from the test set. The predicted class is determined and displayed along with the corresponding image.
 
 ## Running the Project
 1. Install required libraries: `tensorflow`, `pandas`, `numpy`, `seaborn`, `matplotlib`.
